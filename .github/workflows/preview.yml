@@ -1,0 +1,44 @@
+name: Deploy for preview
+on:
+  push:
+    branches:
+      main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Notes (read me) 📖"
+        run: |
+          # About this workflow:
+          # This workflow generates GitHub pages, but IT IS NOT USED. It is
+          # only generated as an emergency fallback in case Netlify goes down 😊
+
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.14.2'
+          cache: yarn
+
+      - name: Use Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.7.5'
+          bundler-cache: true
+
+      - run: yarn install --frozen-lockfile
+      - run: yarn build
+          
+      - name: 📂 Deploy to VPS
+        uses: SamKirkland/FTP-Deploy-Action@4.3.1
+        with:
+          server: ${{ secrets.ftp_server }}
+          username: ${{ secrets.ftp_username_preview }}
+          password: ${{ secrets.ftp_password_preview }}
+          port: ${{ secrets.ftp_port }}
+          local-dir: _site/
