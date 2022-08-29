@@ -1,7 +1,6 @@
 > This is a repo copied from [rstacruz/cheatsheets](https://github.com/rstacruz/cheatsheets).
 
-<h1 align='center'>ThePapers</h1>
-<h3 align='center'>cheatsheets for finance</h3>
+<h1 align='center'>ThePapers - cheatsheets for finance</h1>
 
 ## Modification
 - Home page: pages-list-item will be shown by **title** rather than **slug**. 
@@ -10,8 +9,6 @@
 ---
 
 <p align='center'>
-<a href='https://thepapers.cn'><img src='_docs/images/screenshot.png' width=600></a>
-<br>
 ✨ <b><a href='https://thepapers.cn'>thepapers.cn</a></b> ✨
 </p>
 
