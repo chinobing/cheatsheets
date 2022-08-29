@@ -1,0 +1,50 @@
+home:
+  title: "Bing's cheatsheets"
+  tagline: |
+    Hey! I'm <a href='https://github.com/chinobing'>@chinobing</a> and this is a modest collection of cheatsheets I've written.
+
+top_nav:
+  title: ThePapers.cn
+  edit: Edit
+  edit_on_github: Edit this page on GitHub
+
+sheet:
+  suffix: cheatsheet
+
+social_list:
+  default_description: "Ridiculous collection of finance cheatsheets"
+  description: "The ultimate cheatsheet for finance."
+  facebook_share: Share on Facebook
+  twitter_share: Share on Twitter
+
+related_posts_callout:
+  description: 超过 SIZE 速查表.
+  link: 返回 ThePapers 首页
+
+related_posts_group:
+  top: Top cheatsheets
+  other: Other cheatsheets
+  category: Other CATEGORY cheatsheets
+
+search_form:
+  default_placeholder: Search/搜索....
+  home_placeholder: Search/搜索...
+  prefix: ThePapers
+
+comments_area:
+  suffix: for this cheatsheet.
+  link: "Write yours!"
+
+not_found:
+  title: Not found
+  description: Sorry, we don't have a cheatsheet for this yet. Try searching!
+  home: Back to home
+
+# announcement:
+#   id: 2017-10-26-twitter
+#   title: |
+#     New: We're on Twitter ♥️
+#   body: |
+#     Follow [@devhints](https://twitter.com/devhints) on Twitter for daily "today I learned" snippets!
+
+#     [![](https://img.shields.io/twitter/follow/devhints.svg?style=social&label=@devhints)](https://twitter.com/devhints)

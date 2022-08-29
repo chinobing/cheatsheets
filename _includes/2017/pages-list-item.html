@@ -1,0 +1,14 @@
+{% assign slug = include.page.url | remove: '.html' | remove_first: '/' %}
+<a class='{{ include.class }} -item-{{ slug }}'
+  href="{{base}}{{ include.page.url | remove: '.html' }}"
+  data-js-searchable-item='{"slug":"{{ slug }}","title":"{{ include.page.title }}","category":"{{ include.page.category }}","keywords":"{{ include.page.keywords }}"}'>
+  <span class='info'>
+    <code class='slug'>{{ include.page.title }}</code>
+
+    {% if include.page.layout == '2017/sheet' %}
+    <abbr class='attribute-peg -new-layout hint--bottom' data-hint='New layout!'><span></span></abbr>
+    {% endif %}
+
+    <span class='title'>{{ slug }} {{ include.page.redirect_to }}</span>
+  </span>
+</a>
