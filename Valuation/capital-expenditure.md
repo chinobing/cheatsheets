@@ -2,7 +2,7 @@
 title: 资本性支出
 category: 估值 | Valuation
 layout: 2017/sheet
-updated: 2022-08-28
+updated: 2022-08-30
 weight: -1
 keywords: zbxzc zbhzc capital expenditure 资本性支出 资本化的支出
 intro: 资本性支出主要用于计算企业的自由现金流
@@ -54,7 +54,7 @@ intro: 资本性支出主要用于计算企业的自由现金流
 ![](https://pic.f10.org/i/2022/08/30/sazoyn.png)
 
 ```
-2021年资本性支出 = 30.98亿 - 0.6443亿 = 30.3357亿
+2021年的资本性支出 = 30.98亿 - 0.6443亿 = 30.3357亿
 ```
 {: data-line="1"}
 
