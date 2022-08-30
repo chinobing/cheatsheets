@@ -10,58 +10,70 @@ keywords: style format ys yangshi
 intro: 网站页面的样式、格式sample
 ---
 
-{%raw%}
+## One-column
+{: .-one-column}
+One column
 
-Components
-----------
+## Two-column
+{: .-two-column}
+### Column one
+Column one
+
+### Column two
+Column two
+
+## Three-column
 {: .-three-column}
 
 ### Column one
 {: .-prime}
 
-```jsx
+```
 1
 ```
 {: .-setup}
 
-```jsx
+```
 2
 ```
 
-```jsx
+```
 3
 ```
 
-comment............
+line with comment..
 
 ### Column two
 {: .-prime}
 
-```jsx
+```
 1
 ```
 {: .-setup}
 
-```jsx
+```
 2
 ```
 
 ### Column Three
 
-```html
+```
 1
 ```
 {: .-setup}
 
-```jsx
-2
+```
+1
+2 line with highlight
+3 line with highlight
+4
 ```
 {: data-line="2,3"}
 
-3
+line with comment..
 
-Lifecycle
----------
+two column with table
+---------------------
 {: .-two-column}
 
 ### Mounting
@@ -108,14 +120,14 @@ See: [Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-pr
 
 | Key   | Description |
 | ----- | ----------- |
-| `any` | Anything    |
+| `any` | "Anything"    |
 
 #### Basic
 
 | Key      | Description   |
 | -------- | ------------- |
 | `string` |               |
-| `number` |               |
+| `number` |    11         |
 | `func`   | Function      |
 | `bool`   | True or false |
 
@@ -126,34 +138,6 @@ See: [Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-pr
 | `oneOf`_(any)_            | Enum types  |
 | `oneOfType`_(type array)_ | Union       |
 
-#### Array
-
-| Key              | Description |
-| ---------------- | ----------- |
-| `array`          |             |
-| `arrayOf`_(...)_ |             |
-
-#### Object
-
-| Key                 | Description                          |
-| ------------------- | ------------------------------------ |
-| `object`            |                                      |
-| `objectOf`_(...)_   | Object with values of a certain type |
-| `instanceOf`_(...)_ | Instance of a class                  |
-| `shape`_(...)_      |                                      |
-
-#### Elements
-
-| Key       | Description   |
-| --------- | ------------- |
-| `element` | React element |
-| `node`    | DOM node      |
-
-#### Required
-
-| Key                | Description |
-| ------------------ | ----------- |
-| `(···).isRequired` | Required    |
 
 ### Basic types
 
@@ -164,36 +148,6 @@ MyComponent.propTypes = {
   callback:   PropTypes.func,
   isClosed:   PropTypes.bool,
   any:        PropTypes.any
-}
-```
-
-### Required types
-
-```jsx
-MyCo.propTypes = {
-  name:  PropTypes.string.isRequired
-}
-```
-
-### Elements
-
-```jsx
-MyCo.propTypes = {
-  // React element
-  element: PropTypes.element,
-
-  // num, string, element, or an array of those
-  node: PropTypes.node
-}
-```
-
-### Enumerables (oneOf)
-
-```jsx
-MyCo.propTypes = {
-  direction: PropTypes.oneOf([
-    'left', 'right'
-  ])
 }
 ```
 
@@ -220,17 +174,8 @@ MyCo.propTypes = {
 
 Use `.array[Of]`, `.object[Of]`, `.instanceOf`, `.shape`.
 
-### Custom validation
 
-```jsx
-MyCo.propTypes = {
-  customProp: (props, key, componentName) => {
-    if (!/matchme/.test(props[key])) {
-      return new Error('Validation failed!')
-    }
-  }
-}
-```
+
 
 Also see
 --------
@@ -239,5 +184,3 @@ Also see
 * [React cheatsheet](https://reactcheatsheet.com/) _(reactcheatsheet.com)_
 * [Awesome React](https://github.com/enaqx/awesome-react) _(github.com)_
 * [React v0.14 cheatsheet](react@0.14) _Legacy version_
-
-{%endraw%}
