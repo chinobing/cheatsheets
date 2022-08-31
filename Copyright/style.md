@@ -179,5 +179,12 @@ Use `.array[Of]`, `.object[Of]`, `.instanceOf`, `.shape`.
 
 Also see
 --------
-
 * [ThePapers.cn](https://thepapers.cn) _(thepapers)_
+
+
+intro
+-----------
+{: .-intro}
+
+- [ThePapers.cn](https://thepapers.cn) _(thepapers)_
+- [ThePapers.cn](https://thepapers.cn) _(thepapers)_
