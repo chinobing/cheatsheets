@@ -1,10 +1,12 @@
 ---
 title: CheatSheets Powered by rstacruz
 category: Copyright
+layout: 2017/sheet
 updated: 2022-08-29
 ---
 
-
+## rstacruz
+{: .-one-column}
 {%raw%}
 
 <h1 align='center'>Devhints</h1>
