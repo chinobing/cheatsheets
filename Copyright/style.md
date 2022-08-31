@@ -10,6 +10,16 @@ keywords: style format ys yangshi
 intro: 网站页面的样式、格式sample
 ---
 
+
+## Three-column
+{: .-three-column}
+
+### Introduction
+{: .-intro}
+
+- [ThePapers.cn](https://thepapers.cn) _(thepapers)_
+- [ThePapers.cn](https://thepapers.cn) _(thepapers)_
+
 ## One-column
 {: .-one-column}
 One column
@@ -181,9 +191,3 @@ Also see
 --------
 * [ThePapers.cn](https://thepapers.cn) _(thepapers)_
 
-
-### Introduction
-{: .-intro}
-
-- [ThePapers.cn](https://thepapers.cn) _(thepapers)_
-- [ThePapers.cn](https://thepapers.cn) _(thepapers)_
