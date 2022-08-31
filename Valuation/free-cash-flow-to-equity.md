@@ -3,7 +3,8 @@ title: 股权自由现金流量
 category: 估值 | Valuation
 layout: 2017/sheet
 updated: 2022-08-31
-keywords: zyxjl fcf Free Cash Flow equity
+tags: [Featured]
+keywords: zyxjl fcf Free Cash Flow equity 自由现金流量
 intro: 自由现金流是一种财务方法，用来衡量企业实际持有的能够回报股东的现金
 ---
 
