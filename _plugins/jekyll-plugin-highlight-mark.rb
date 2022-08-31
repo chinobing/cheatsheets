@@ -1,14 +1,9 @@
-class HighlightsGenerator < Jekyll::Generator
-    def generate(site)
-  
-      all_docs = site.documents
-  
-      # Converts Markdown-plus ==text== to  <mark>text</mark>
-      all_docs.each do |current_note|
-        current_note.content = current_note.content.gsub(
-          /\=\=(.*)\=\=/i,
-          '<mark markdown="span">\1</mark>'
-        )
-      end
-    end
+Jekyll::Hooks.register :documents, :pre_render do |doc|
+    # We want to catch all pages, posts, docs in collections
+    doc.content = doc.content.gsub(
+      /\=\=(.*)\=\=/i,
+      '<mark markdown="span">\1</mark>'
+    )
+    # setting the markdown="span" flag tells Kramdown to parse what's between the tags, 
+    # otherwise it is ignored.
   end
