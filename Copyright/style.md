@@ -1,6 +1,6 @@
 ---
 title: 样式
-category: Copyright
+category: Hidden
 layout: 2017/sheet
 ads: false
 tags: [Featured]

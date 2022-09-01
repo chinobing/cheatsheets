@@ -8,7 +8,7 @@
     {% if include.page.layout == '2017/sheet' %}
     <abbr class='attribute-peg -new-layout hint--bottom' data-hint='New layout!'><span></span></abbr>
     {% endif %}
-
-    <span class='title'>{{ slug }} {{ include.page.redirect_to }}</span>
+    {% assign title = slug | replace: "-", " " | split: '/' | shift %}
+    <span class='title'>{{ title }} {{ include.page.redirect_to }}</span>
   </span>
 </a>
