@@ -14,14 +14,6 @@
 
 <br>
 
-<h1 align='center'>Devhints</h1>
-
-<blockquote align='center'>
-TL;DR for developer documentation - a ridiculous collection of cheatsheets
-</blockquote>
-
-<br>
-
 <p align='center'>
 <a href='https://thepapers.cn'><img src='_docs/images/screenshot.png' width=600></a>
 <br>
