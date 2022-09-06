@@ -30,6 +30,7 @@ keywords: whchzbjl
 ```
 
 来源：
+
 1、[提高外汇存款准备金率的市场预期引导意义](https://www.stcn.com/space/tg/202112/t20211217_3980598.html)_(作者：张锐)_
 
 2、[年内二度上调外汇存款准备金率 央行释放人民币汇率“降温”信号](https://news.cnstock.com/news,yw-202112-4794632.htm)_(上海证券报)_
