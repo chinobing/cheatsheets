@@ -3,7 +3,7 @@ title: 半导体
 category: 术语 | Terms
 layout: 2017/sheet
 updated: 2022-09-06
-keywords: ic 分立器件 功率驱动 功率模块 晶圆 芯片 流片 功率器件 IDM Fabless Foundry 芯片代工 封装 封测
+keywords: bdt ic 分立器件 功率驱动 功率模块 晶圆 芯片 流片 功率器件 IDM Fabless Foundry 芯片代工 封装 封测
 intro: 各类半导体相关的术语，摘自各上市公司的半年报、年报、招股说明书
 ---
 
