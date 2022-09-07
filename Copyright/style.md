@@ -28,7 +28,7 @@ intro: 网站页面的样式、格式sample
 ### Letax
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
-- $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
 
 ## One-column
