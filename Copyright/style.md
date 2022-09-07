@@ -26,9 +26,8 @@ intro: 网站页面的样式、格式sample
 - 这是~~ThePapers.cn~~的页面样式、格式
 
 ### Letax
-$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
-- $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
 
 ## One-column
