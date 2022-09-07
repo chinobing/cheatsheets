@@ -7,7 +7,7 @@ class HighlightsGenerator < Jekyll::Generator
     all_docs.each do |current_note|
       current_note.content = current_note.content.gsub(
         /\=\=(.*)\=\=/i,
-        '<mark>\1</mark>'
+        '<mark markdown="span">\1</mark>'
       )
     end
   end
