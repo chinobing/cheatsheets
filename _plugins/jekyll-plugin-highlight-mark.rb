@@ -1,4 +1,4 @@
-Jekyll::Hooks.register :posts, :pre_render do |doc|
+Jekyll::Hooks.register :pages, :pre_render do |doc|
   # We want to catch all pages, posts, docs in collections
   doc.content = doc.content.gsub(
     /\=\=(.*)\=\=/i,
