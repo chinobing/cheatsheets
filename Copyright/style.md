@@ -29,6 +29,7 @@ intro: 网站页面的样式、格式sample
 
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
+See: [ONline latexeditor](https://latexeditor.lagrida.com/)
 
 ## One-column
 {: .-one-column}
