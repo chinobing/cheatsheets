@@ -26,7 +26,7 @@ intro: 网站页面的样式、格式sample
 - 这是~~ThePapers.cn~~的页面样式、格式
 
 这是 ==ThePapers.cn== 的页面样式、格式
-{:markdown="span"}
+{: mark markdown="span"}
 
 <mark markdown="1">[hello](/hello/)</mark>
 <mark markdown="span">[hello](/hello/)</mark>
