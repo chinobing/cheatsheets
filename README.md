@@ -5,7 +5,7 @@
 ## Modification
 - Home page: pages-list-item will be shown by **title** rather than **slug**. 
 - Search: data-js-searchable-item will catch search keyword by slug、title、category、keywords. **Search for Chinese supported.**
-
+- Latex supported.
 ---
 
 <p align='center'>
