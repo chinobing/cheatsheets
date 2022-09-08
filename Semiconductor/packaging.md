@@ -1,6 +1,6 @@
 ---
 title: 封装
-category: 半导体行业 | Semiconductor
+category: 半导体 | Semiconductor
 layout: 2017/sheet
 updated: 2022-09-08
 keywords: fz
@@ -44,15 +44,3 @@ intro: 各类封装相关的术语，摘自各上市公司的半年报、年报�
 - **装配方式**：通孔插装 -> 表面组装 -> 直接安装
 
 出处：[关于IC封装常识 - 响拇指](https://zhuanlan.zhihu.com/p/61309094)_(知乎)_
-
-
-## 其他
-{: .-three-column}
-
-### 逆变器
-- **整流**：交流变直流
-- **逆变**：直流变交流
-- **斩波**：直流到直流
-- **变频**：交流变交流
-
-出处：[机会来了，国产GPU请开始你们的表演！](https://mp.weixin.qq.com/s/vROYZNPTwU3Hs3UhjZ7g9Q)_(陈启)_

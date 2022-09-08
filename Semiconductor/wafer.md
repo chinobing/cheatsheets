@@ -1,6 +1,6 @@
 ---
 title: 晶圆
-category: 半导体行业 | Semiconductor
+category: 半导体 | Semiconductor
 layout: 2017/sheet
 updated: 2022-09-08
 keywords: jy
