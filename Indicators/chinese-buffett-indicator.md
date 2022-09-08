@@ -3,7 +3,6 @@ title: 巴菲特指数
 category: 指标 | Indicators
 layout: 2017/sheet
 updated: 2022-09-01
-tags: [Featured]
 keywords: bftzs 
 intro: “巴菲特指数”，即股票总市值对GDP的比值。
 ---
