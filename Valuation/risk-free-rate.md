@@ -3,7 +3,6 @@ title: 无风险收益率
 category: 估值 | Valuation
 layout: 2017/sheet
 updated: 2022-09-02
-tags: [Featured]
 keywords: rf wfxsyl
 intro: 无风险收益率（rf）的探讨和使用
 ---

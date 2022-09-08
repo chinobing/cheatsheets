@@ -3,7 +3,6 @@ title: 外汇存款准备金率
 category: 宏观 | Macro
 layout: 2017/sheet
 updated: 2022-09-06
-tags: [Featured]
 keywords: whchzbjl
 ---
 
