@@ -7,6 +7,13 @@
   <link rel="stylesheet" href="{{base}}/assets/2015/style.css?t={{ timestamp }}">
   <link href="{{base}}/assets/style.css?t={{ timestamp }}" rel="stylesheet" />
   <link href="{{base}}/assets/print.css?t={{ timestamp }}" rel="stylesheet" media="print" />
+
+  <!-- custom css-->
+  <style>
+  {% if site.data.custom_css.enabled %}
+  {{site.data.custom_css.content}}
+  {% endif %}
+</style>
 </head>
 <body>
 <div class='all'>

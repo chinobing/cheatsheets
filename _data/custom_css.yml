@@ -1,0 +1,6 @@
+enabled: true
+content: |
+    .MarkdownBody code {
+        color: #ff0000 !important;
+        font-size: 1.2em !important;
+    }
