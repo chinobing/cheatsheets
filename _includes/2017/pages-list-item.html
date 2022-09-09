@@ -6,7 +6,7 @@
     <code class='slug'>{{ include.page.title }}</code>
 
     {% for p in site.pages %}
-    {% if p.tags contains 'hot' %}
+    {% if p.tags contains 'star' %}
       <abbr class='attribute-peg -new-layout hint--bottom' data-hint='STARRED!'><span>⭐</span></abbr>
     {% endif %}
     {% endfor %}
