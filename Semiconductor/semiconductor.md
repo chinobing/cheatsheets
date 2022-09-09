@@ -13,7 +13,7 @@ intro: 各类半导体相关的术语，摘自各上市公司的半年报、年�
 
 ### 半导体产业结构
 
-<img src="https://pic.f10.org/i/2022/09/09/h4ze60.jpg"  width=50% height=50%>
+![查不到出处](https://pic.f10.org/i/2022/09/09/h4ze60.jpg){:height="599px" width="670px"}
 
 
 ### 常用词语释义
