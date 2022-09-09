@@ -5,11 +5,9 @@
   <span class='info'>
     <code class='slug'>{{ include.page.title }}</code>
 
-    {% for p in site.pages %}
-    {% if p.tags contains 'star' %}
+    {% if page.tags contains 'star' %}
       <abbr class='attribute-peg -new-layout hint--bottom' data-hint='STARRED!'><span>⭐</span></abbr>
     {% endif %}
-    {% endfor %}
 
     {% assign title = slug | replace: "-", " " | split: '/' | shift %}
     <span class='title'>{{ title }} {{ include.page.redirect_to }}</span>
