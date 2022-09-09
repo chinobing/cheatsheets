@@ -1,6 +1,14 @@
 {% include meta.html %}
 {% include polyfills.html %}
 
+
+<!-- custom css-->
+<style type="text/css">
+  {% if site.data.custom_css.enabled %}
+    {{site.data.custom_css.content}}
+  {% endif %}
+</style>
+
 <!-- critical css -->
 {% if include.critical == 'home'
 %}<style id='critical-css'>{% include 2017/critical/critical-home.css %}</style>{%
