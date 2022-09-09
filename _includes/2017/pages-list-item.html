@@ -6,9 +6,9 @@
     <code class='slug'>{{ include.page.title }}</code>
 
     {% if page.tags contains 'star' %}
-      <abbr class='attribute-peg -new-layout hint--bottom' data-hint='STARRED!'>⭐</abbr>
+      <abbr class='attribute-peg -new-layout hint--bottom' data-hint='STARRED!'><span>⭐</span></abbr>
     {% else %}
-      <abbr class='attribute-peg -new-layout hint--bottom'><span></span></abbr>
+      <abbr class='attribute-peg -new-layout'><span></span></abbr>
     {% endif %}
 
     {% assign title = slug | replace: "-", " " | split: '/' | shift %}
