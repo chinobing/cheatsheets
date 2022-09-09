@@ -3,7 +3,7 @@ title: 样式
 category: Hidden
 layout: 2017/sheet
 ads: false
-tags: [Featured, star]
+tags: [Featured]
 updated: 2022-08-28
 weight: -1
 keywords: style format ys yangshi

@@ -2,6 +2,7 @@
 title: 功率半导体
 category: 半导体 | Semiconductor
 layout: 2017/sheet
+tags: [star]
 updated: 2022-09-09
 keywords: glbdt flqj glqj 分立器件 功率器件
 intro: 功率半导体件相关的知识点
