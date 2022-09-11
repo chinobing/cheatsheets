@@ -1,8 +1,6 @@
 enabled: true
 content: |
-    .-big {
-        font-size: 1.2em !important;
-    }
-    .-red {
+    .-big-red {
         color: #d92508 !important;
+        font-size: 1.2em !important;
     }
