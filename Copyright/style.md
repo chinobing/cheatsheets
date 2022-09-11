@@ -62,7 +62,7 @@ Column two
 ```
 2 Big Red
 ```
-{: .-big-red}
+{: .-custom}
 
 ```
 3
