@@ -164,10 +164,9 @@ See: [Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-pr
 | ------------------------- | ----------- |
 | `oneOf`_(any)_            | Enum types  |
 | `oneOfType`_(type array)_ | Union       |
-
+{: .-custom}
 
 ### Basic types
-{: .-custom}
 ```jsx
 MyComponent.propTypes = {
   email:      PropTypes.string,
