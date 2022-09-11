@@ -60,8 +60,9 @@ Column two
 {: .-setup}
 
 ```
-2
+2 Big Red
 ```
+{: .-big.-red}
 
 ```
 3

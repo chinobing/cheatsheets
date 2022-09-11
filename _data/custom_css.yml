@@ -1,6 +1,8 @@
 enabled: true
 content: |
-    .MarkdownBody code {
-        color: #d92508 !important;
+    .-big {
         font-size: 1.2em !important;
+    }
+    .-red {
+        color: #d92508 !important;
     }
