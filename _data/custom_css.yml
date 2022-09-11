@@ -4,3 +4,7 @@ content: |
         color: #d92508 !important;
         font-size: 1.2em !important;
     }
+    .-custom > td > code{
+        color: #d92508 !important;
+        font-size: 1.2em !important;
+    }
