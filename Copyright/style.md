@@ -167,7 +167,7 @@ See: [Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-pr
 
 
 ### Basic types
-
+{: .-custom}
 ```jsx
 MyComponent.propTypes = {
   email:      PropTypes.string,
