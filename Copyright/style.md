@@ -60,8 +60,9 @@ Column two
 {: .-setup}
 
 ```
-2
+2 Big Red
 ```
+{: .-custom}
 
 ```
 3
@@ -161,12 +162,11 @@ See: [Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-pr
 
 | Key                       | Description |
 | ------------------------- | ----------- |
-| `oneOf`_(any)_            | Enum types  |
+| `oneOf`_(any)_            | Enum `types`|
 | `oneOfType`_(type array)_ | Union       |
-
+{: .-custom}
 
 ### Basic types
-
 ```jsx
 MyComponent.propTypes = {
   email:      PropTypes.string,
@@ -200,6 +200,8 @@ MyCo.propTypes = {
 
 Use `.array[Of]`, `.object[Of]`, `.instanceOf`, `.shape`.
 
+CUSTOM Use `.array[Of]`, `.object[Of]`, `.instanceOf`, `.shape`.
+{: .-custom}
 
 
 
