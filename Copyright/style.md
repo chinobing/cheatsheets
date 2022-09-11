@@ -162,7 +162,7 @@ See: [Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-pr
 
 | Key                       | Description |
 | ------------------------- | ----------- |
-| `oneOf`_(any)_            | Enum types  |
+| `oneOf`_(any)_            | Enum `types`|
 | `oneOfType`_(type array)_ | Union       |
 {: .-custom}
 
