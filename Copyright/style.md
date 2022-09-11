@@ -201,6 +201,8 @@ MyCo.propTypes = {
 
 Use `.array[Of]`, `.object[Of]`, `.instanceOf`, `.shape`.
 
+CUSTOM Use `.array[Of]`, `.object[Of]`, `.instanceOf`, `.shape`.
+{: .-custom}
 
 
 
