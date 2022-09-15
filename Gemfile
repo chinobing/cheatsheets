@@ -1,3 +1,6 @@
 source 'https://rubygems.org'
-gem 'jekyll-replace-img'
-gem 'github-pages', group: :jekyll_plugins
+# Gems loaded irrespective of site configuration.
+group :jekyll_plugins do
+    gem "github-pages"
+    gem "jekyll-replace-img
+  end
