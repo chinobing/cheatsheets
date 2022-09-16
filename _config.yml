@@ -3,10 +3,12 @@
 whitelist:
   - jekyll-redirect-from
   - jekyll-github-metadata
+  - jekyll-replace-img
 
 plugins:
   - jekyll-redirect-from
   - jekyll-github-metadata
+  - jekyll-replace-img
 
 exclude:
   - .babelrc
@@ -64,3 +66,11 @@ title: thepapers.cn 金融速查表
 # https://help.github.com/articles/repository-metadata-on-github-pages/
 
 repository: chinobing/cheatsheets
+
+
+# plugins config
+replace_img:
+  re_img:      \=\=(?<m>.*)\=\=
+  re_ignore:   data-ignore
+  replacement: |
+    <mark>%<m>s</mark>
