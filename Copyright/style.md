@@ -27,15 +27,6 @@ intro: 网站页面的样式、格式sample
 - 这是 <mark markdown="span">[ThePapers.cn](https://thepapers.cn)</mark>的页面样式、格式
 - 这是==[ThePapers.cn](https://thepapers.cn)==的页面样式、==格式==
 
-### Expand
-[expand]
-Long content here
-and here
-...
-[/expand]
-
-
-
 ### Letax
 - $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
