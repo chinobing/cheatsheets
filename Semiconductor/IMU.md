@@ -12,7 +12,7 @@ intro: 惯性测量单元（IMU）的相关资料
 {: .-one-column .-custom}
 
 ### IMU
-- 惯性测量单元（Inertial Measurement Unit，IMU）， 是测量物体三轴姿态角（或角速率）以及加速度的装置。通常，IMU内部集成3轴陀螺仪和3轴加速度计，以及运动/姿态算法。
+- **惯性测量单元（Inertial Measurement Unit，IMU）**， 是测量物体三轴姿态角（或角速率）以及加速度的装置。通常，IMU内部集成3轴陀螺仪和3轴加速度计，以及运动/姿态算法。
 - 如果IMU内部集成的传感器采用MEMS技术实现，那么可被称为**MEMS IMU**。
 
 ### MEMS IMU
