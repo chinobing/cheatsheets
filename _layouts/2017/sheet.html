@@ -41,6 +41,21 @@
   <main class='post-content MarkdownBody' data-js-main-body data-js-anchors role='main'>
     {{ content }}
   </main>
+
+  {% assign home = site.html_pages | where: 'url', '/' | first %}
+  {% if page.url != home.url %}
+      {% if page.showbacklinks == true %}
+          {% if page.backlinks.size > 0 %}
+              <div class="backlink-box">
+                  <ul>
+                  {% for backlink in page.backlinks %}
+                      <li><a href="{{ site.url }}{{ backlink.url }}">{{ backlink.title }}</a></li>
+                  {% endfor %}
+                  </ul>
+              </div>
+          {% endif %}
+      {% endif %}
+  {% endif %}
 </div>
 
 <div class='pre-footer' data-js-no-preview><i class='icon'></i></div>
