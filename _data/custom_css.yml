@@ -2,5 +2,5 @@ enabled: true
 content: |
     .-custom code{
         color: #d92508 !important;
-        font-size: 1.2em !important;
+        font-size: 1.1em !important;
     }
