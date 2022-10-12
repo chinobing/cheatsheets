@@ -38,7 +38,7 @@
     {% endfor %}
 
     <h2 class='category item' data-js-searchable-header>
-      <span>Recently updated</span>
+      <span>Recently updated | {{ site.time | date: '%B %d, %Y' }}</span>
     </h2>
 
     {% for page in recent_pages reversed %}
